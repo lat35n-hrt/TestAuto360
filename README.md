@@ -9,9 +9,9 @@ This repository demonstrates automated API testing using **pytest** and **GitHub
 - CI badge ready for portfolios and interviews
 
 ## 🏗️ Tech Stack
-- Python 3.11
-- pytest
-- requests
+- Python 3.10.11
+- pytest 8.4.2
+- requests 2.32.5
 - GitHub Actions
 
 ## 🚀 Run Locally
