@@ -1,4 +1,7 @@
 # 🧪 TestAuto360 — API Test Automation PoC
+![CI](https://github.com/lat35n-hrt/TestAuto360/actions/workflows/ci.yml/badge.svg)
+
+
 
 This repository demonstrates automated API testing using **pytest** and **GitHub Actions**.
 
@@ -12,6 +15,8 @@ This repository demonstrates automated API testing using **pytest** and **GitHub
 - Python 3.10.11
 - pytest 8.4.2
 - requests 2.32.5
+- mypy 1.18.2
+- types-requests 2.32.4.20250913
 - GitHub Actions
 
 ## 🚀 Run Locally
