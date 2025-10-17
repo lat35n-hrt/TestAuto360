@@ -8,7 +8,7 @@ def client():
 
 def test_ping_endpoint(monkeypatch):
     """Mocked ping check"""
-    client = APIClient("https://example.com")
+    client = APIClient("https://example.com") # Dummy URL for testing
     monkeypatch.setattr(client, "ping", lambda: {"status_code": 200, "ok": True})
     result = client.ping()
     assert result["status_code"] == 200
