@@ -26,3 +26,6 @@ jobs:
 
       - name: Run tests
         run: pytest -v
+
+      - name: Run mypy
+        run: mypy src/
