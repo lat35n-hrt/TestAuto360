@@ -26,3 +26,9 @@ source .venv/bin/activate   # Windowsは .venv\Scripts\activate
 pip install -r requirements.txt
 pytest -v
 mypy src/
+```
+
+
+## Continuous Integration (CI)
+The CI pipeline now runs both pytest and mypy,
+ensuring that unit tests and static analysis are automatically verified on every push.
