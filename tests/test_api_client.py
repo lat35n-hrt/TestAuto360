@@ -1,4 +1,5 @@
 # tests/test_api_client.py
+# Validates API response structure and expected fields (using real API calls)
 import pytest
 from src.api_client import APIClient
 

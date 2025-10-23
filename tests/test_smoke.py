@@ -1,4 +1,6 @@
 # tests/test_smoke.py
+# Minimal smoke test using monkeypatch (no external API calls)
+
 import pytest   # noqa: F401  # type: ignore
 from src.api_client import APIClient
 
